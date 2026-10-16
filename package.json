@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "render": "node scripts/render.mjs --real",
+    "render": "node scripts/render.mjs --rea",
     "render:legacy": "node scripts/render.mjs"
   },
   "dependencies": {

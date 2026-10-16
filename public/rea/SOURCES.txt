@@ -1,0 +1,9 @@
+Official repository and asset references for the REA episode:
+- https://github.com/morluto/rea
+- https://rea.tools/
+- https://github.com/morluto/rea/blob/main/README.md
+- https://github.com/morluto/rea/blob/main/docs/assets/rea-hopper-analysis.png
+- https://avatars.githubusercontent.com/u/76467478?v=4
+- https://opengraph.githubassets.com/1/morluto/rea
+
+The local files in this folder are downloaded snapshots for video composition. Refresh the counts and assets before publication if the episode is delayed.

@@ -1,10 +1,13 @@
 # GitHub 热点视频项目
 
-当前视觉基线：**真实照片 + 真实 GitHub 页面 + 纪实科技栏目风格**。
+当前主样片：**REA / Reverse Engineer Anything**。
+
+视觉基线：真实照片、真实 GitHub 页面、真实项目素材、纪实科技栏目质感。
 
 ## 默认渲染
 
 ```powershell
+npm install
 npm run typecheck
 npm run render
 ```
@@ -12,29 +15,28 @@ npm run render
 默认输出：
 
 ```text
-out/github-hotspot-context-mode-real.mp4
+out/github-hotspot-rea-full.mp4
 ```
 
-## 视觉规范
+## 当前完整版
 
-- 竖屏 1080×1920，30fps
-- 真实办公／开发场景照片作为开场和转场
-- GitHub 项目页面、README、Release 或实际运行结果作为证据画面
-- 米白、黑色、暗红、暖黄色为主色
-- 少量纸张、截图、批注和终端卡片
-- 避免霓虹网格、纯抽象 UI 和大面积 AI 生成感
-- 内容表达优先于装饰动效
+- 主题：`morluto/rea`
+- 片长：约 125 秒
+- 规格：1080×1920，30fps，H.264 + AAC
+- 结构：问题提出 → 项目与作者 → 工作机制 → 真实 README 素材 → 适用范围 → 安装方式 → 结论
+- 数据快照：2026-10-16
+- 原始资料记录：`public/rea/snapshot-2026-10-16.json`
 
-## 项目事实
+## 内容边界
 
-当前样片主题是 `mksglu/context-mode`，所有热点数据必须标注采集日期，并保留 GitHub 项目主页、README、Release 等来源。
+REA 涉及逆向工程。视频只展示合法授权环境下的研究、理解和证据链，不把项目描述为破解工具，也不鼓励对无授权软件进行分析。
 
 ## 声音
 
-当前使用本地自然中文男声作为样片配音。若替换为真人录音，只需替换：
+当前完整版使用本地自然中文男声作为配音占位。若替换为真人录音，只需把真人录音处理成同规格文件并替换：
 
 ```text
-public/voice/narration-final.wav
+public/voice/rea-narration-final.wav
 ```
 
 然后重新运行：
@@ -42,3 +44,11 @@ public/voice/narration-final.wav
 ```powershell
 npm run render
 ```
+
+## 其他 Composition
+
+```powershell
+npm run render:legacy
+```
+
+`--real` 版本仍保留在 `GithubHotspotReal`，用于 Context Mode 样片。

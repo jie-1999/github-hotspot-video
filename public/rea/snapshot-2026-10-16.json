@@ -1,0 +1,22 @@
+{
+  "snapshotDate": "2026-10-16",
+  "repository": "morluto/rea",
+  "starsAtCapture": 274909,
+  "forksAtCapture": 69244,
+  "license": "MIT",
+  "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+  "owner": {
+    "login": "morluto",
+    "bio": "member of technically staff",
+    "blog": "https://x.com/morluto"
+  },
+  "sources": [
+    "https://github.com/morluto/rea",
+    "https://github.com/morluto/rea/blob/main/README.md",
+    "https://github.com/morluto/rea/blob/main/docs/assets/rea-hopper-analysis.png",
+    "https://rea.tools/",
+    "https://avatars.githubusercontent.com/u/76467478?v=4",
+    "https://opengraph.githubassets.com/1/morluto/rea"
+  ],
+  "note": "GitHub counts are observation-time values and must be refreshed before publication if the video is delayed."
+}
