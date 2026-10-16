@@ -1,0 +1,7 @@
+node_modules/
+.cache/
+.tmp/
+*.log
+out/*.jpg
+public/voice/narration-kangkang.wav
+public/voice/narration.wav
